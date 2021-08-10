@@ -1,0 +1,101 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+
+<div class="card mb-3" style="max-width: 1107px;">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <img src="~/images/business.jpg" class="card-img" alt="businessman">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <div class="jumbotron">
+                    <h1 class="display-4">Welcome</h1>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                        </div>
+                        <input type="text" aria-label="First name" class="form-control" placeholder="What you need?">
+                        <input type="text" aria-label="Last name" class="form-control" placeholder="Your location.">
+                        <a class="btn btn-secondary" href="#" role="button">Search</a>
+                    </div>
+                    <br />
+                    <p class="lead">Are you a business owner, and looking for solutions to effectively manage your business professionally and effectively?
+                                    Here you will find easy to use tools and guidance for everything Business Management.</p>
+                    <hr class="my-4">
+                    <p class="lead">Or you are a professional looking for ready to use tools so that you can improve turnaround times for your clients and work? We are here to help!</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+
+<h1 class="display-4">Explore</h1>
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"><img src="https://img.icons8.com/color/48/000000/general-ledger.png" /><div>Accounting</div></h5>
+                <p class="card-text">From Bookkeeping to Financial Statements. Do everything yourself!</p>
+                <a asp-area="" asp-page="/Accounting" class="btn btn-secondary">Explore</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"><img src="https://img.icons8.com/color/48/000000/refund-2--v1.png" /><div>Taxation</div></h5>
+                <p class="card-text">Do all SARS registrations, Tax Calculations and Submissions!</p>
+                <a asp-area="" asp-page="/Tax" class="btn btn-secondary">Explore</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"><img src="https://img.icons8.com/color/48/000000/escrow-process.png" /><div>Financial Management</div></h5>
+                <p class="card-text">Manage your finances like a pro!</p>
+                <a asp-area="" asp-page="/Finance" class="btn btn-secondary">Explore</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"><img src="https://img.icons8.com/color/48/000000/refund.png" /><div>Human Resources &#38 Payroll</div></h5>
+                <p class="card-text">Payslips and all statutory requirements - Do all this yourself!</p>
+                <a asp-area="" asp-page="/HR" class="btn btn-secondary">Explore</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"><img src="https://img.icons8.com/color-glass/48/000000/deposit.png" /><div>Project Management</div></h5>
+                <p class="card-text">Be the master of your projects.</p>
+                <a asp-area="" asp-page="/Projects" class="btn btn-secondary">Explore</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"><img src="https://img.icons8.com/color-glass/48/000000/manufacturing.png" /><div>Manufacturing</div></h5>
+                <p class="card-text">From Costing to Pricing - make informed decisions, improve sales! </p>
+                <a asp-area="" asp-page="/Manufacturing" class="btn btn-secondary">Explore</a>
+            </div>
+        </div>
+    </div>
+</div>
